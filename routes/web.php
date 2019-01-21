@@ -14,8 +14,7 @@
 
 
 Route::get('/', [
-    'uses' =>'FirstNewController@index',
-    'as' =>'index']
+    'uses' =>'FirstNewController@index']
 );
 
 Route::get('/new',function(){

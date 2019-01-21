@@ -27,9 +27,9 @@
                 <option>嚴凱泰</option>
                 <option>孫安佐</option>
             </datalist>
-    
+
             <button class="search-btn"><i class="fas fa-search"></i></button>
-        </div>       
+        </div>
     </div>
 
     <div id="logo"><img src="img/pc_logo.png" alt=""></div>
@@ -57,10 +57,10 @@
         </div>
 
         <div class="right" style="cursor:pointer;">
-            <img src="img/LINE.png" style="float:left;">
-            <img src="img/youtube.png" style="float:left; padding-left:10px">
-            <img src="img/fb.png" style="float:left;padding-left:10px">
-            <img src="img/IG.png" style="float:left;padding-left:10px">
+            <img src={{url("img/Line.png")}} style="float:left;">
+            <img src={{url("img/youtube.png")}} style="float:left; padding-left:10px">
+            <img src={{url("img/fb.png")}} style="float:left;padding-left:10px">
+            <img src={{url("img/IG.png")}} style="float:left;padding-left:10px">
         </div>
     </div>
 
@@ -72,14 +72,14 @@
         <div class='title'>
             <h2>日大阪府立高中入學考 刪報名表「性別欄」</h2>
             <div class='title_inner'>
-                <img src="img/section_title_pic.jpg" alt="">
+                <img src={{url("img/section_title_pic.jpg")}} alt="">
                 <p>2018/1/16中央社</p>
             </div>
         </div>
 
         <div class="main">
             <i></i>
-            <img src="img/section_main_pic.jpg" alt="">
+            <img src={{url("img/section_main_pic.jpg")}} alt="">
             <i></i>
             <div class='row'>
                 <p>日本大阪府教育廳針對明年春天舉行的府立高中入學考試，為顧及LGBT（同性戀、雙性戀和跨性別者）學生的想法，且性別並不影響考試及招生，決定刪除報名表上的性別欄。</p>
@@ -102,7 +102,7 @@
             @for ($i = 0; $i < 6; $i++)
                 <div class='inner'>
                     <a href="#">
-                        <img src="img/keyword1.jpg" alt="">
+                        <img src={{url("img/keyword1.jpg")}} alt="">
                         <p>政大選研民調：2020蔡英文、朱立倫加起來都還輸給柯文哲！！ 關鍵時刻20190115-4 黃暐瀚 謝龍介 吳子嘉 林國慶 朱學恒</p>
                         <p style="font-size:15px;">
                             觀看次數 12
@@ -115,7 +115,7 @@
             @endfor
         </div>
         <div style="height:800px;margin-bottom:75px">
-            <h4><img src="img/con1.png" alt=""> <b>國際人氣瀏覽</b></h4>
+            <h4><img src={{url("img/con1.png")}} alt=""> <b>國際人氣瀏覽</b></h4>
             @for ($i = 0; $i < 6; $i++)
                 <div class='inner'>
                     <a href="#">
@@ -129,13 +129,13 @@
                         </p>
                     </a>
                 </div>
-            @endfor  
+            @endfor
         </div>
 
- 
+
     </div>
 
- 
+
     <div id='bottom'>
         <div class='inner'>
             <div class='breadcrumb_top'>
@@ -168,7 +168,7 @@
             </div>
             <div class='inner_bottom'>
                 <div class='left'>
-                    <img src="img/bottom_tag.png" alt="">
+                    <img src={{url("img/bottom_tag.png")}} alt="">
                 </div>
                 <div class="right">
                     <p>東森電視事業股份有限公司 10041 台北市忠孝西路一段4號14樓 客服專線：02-2388-5918 隱私權政策</p>

@@ -27,12 +27,12 @@
                 <option>嚴凱泰</option>
                 <option>孫安佐</option>
             </datalist>
-    
+
             <button class="search-btn"><i class="fas fa-search"></i></button>
-        </div>       
+        </div>
     </div>
 
-    <div id="logo"><img src="img/pc_logo.png" alt=""></div>
+    <div id="logo"><img src={{url('/img/pc_logo.png')}} alt=""></div>
     <div id="nav">
         <div class="left">
             <div class="home">
@@ -57,10 +57,10 @@
         </div>
 
         <div class="right" style="cursor:pointer;">
-            <img src="img/LINE.png" style="float:left;">
-            <img src="img/youtube.png" style="float:left; padding-left:10px">
-            <img src="img/fb.png" style="float:left;padding-left:10px">
-            <img src="img/IG.png" style="float:left;padding-left:10px">
+            <img src={{url("img/Line.png")}} style="float:left;">
+            <img src={{url("img/youtube.png")}} style="float:left; padding-left:10px">
+            <img src={{url("img/fb.png")}} style="float:left;padding-left:10px">
+            <img src={{url("img/IG.png")}} style="float:left;padding-left:10px">
         </div>
     </div>
 
@@ -74,40 +74,40 @@
                 <div class="text">
                     <span id='text_main'></span>
                     <i></i>
-                </div>    
+                </div>
             </dd>
-            <dt>     
+            <dt>
                 <div class="left-bt">
                     <li></li>
-                    <img src="img/arrow-left-w.gif">
+                    <img src={{url("img/arrow-left-w.gif")}}>
                 </div>
                 <div id="mainNew" class="main">
                     @foreach ($titleNews as $new)
                         <ul>
-                            <img src={{$new->img_src}}>
+                            <img src={{url($new->img_src)}}>
                             <p>{{$new->title}}</p>
-                        </ul>  
+                        </ul>
                     @endforeach
                 </div>
                 <div class="right-bt">
                     <li></li>
-                    <img src="img/arrow-right-w.gif">
+                    <img src={{url("img/arrow-right-w.gif")}}>
                 </div>
-            </dt>     
+            </dt>
         </dl>
         <div id="focus2">
-            <h4><img src="img/con1.png" alt=""> 即時</h4>
+            <h4><img src={{url("img/con1.png")}} alt=""> 即時</h4>
             @for ($i = 0; $i < 8; $i++)
                 <div class='inner'>
                     <a href="#">曾之喬美肌有一套 化身林宥嘉保養神隊友</a>
-                </div>  
+                </div>
             @endfor
                 <a href="#" style="color:black;float:right;">看更多</a>
         </div>
     </div>
 
     <div class="rednumber">
-            <h4><img src="img/con1.png" alt=""> <b>熱門</b></h4>
+            <h4><img src={{url("img/con1.png")}} alt=""> <b>熱門</b></h4>
 
             <div class="left_box">
                 <ol>
@@ -132,14 +132,14 @@
 
     @for ($i = 0; $i < 2; $i++)
         <div id="index">
-            <div class="index_title"><h3> <img src="img/con1.png">不爽肉圓沒加辣！男暴打妻兒</h3></div>
+            <div class="index_title"><h3> <img src={{url("img/con1.png")}}>不爽肉圓沒加辣！男暴打妻兒</h3></div>
             <div class='index_left'>
-                <a href=""><img src="img/index_new.jpg" alt=""></a>
+                <a href=""><img src={{url("img/index_new.jpg")}} alt=""></a>
             </div>
             <div class='index_right'>
                     <a href="#">
                         <div class='pic_left'>
-                            <img src="img/pic_right.jpg" alt="">
+                            <img src={{url("img/pic_right.jpg")}} alt="">
                         </div>
                         <div class='text'>
                             <p>家暴肉圓店爆紅 獨門辣椒醬秒完售！老闆娘超狂背景曝光</p>
@@ -148,7 +148,7 @@
                     </a>
                     <a href="#">
                         <div class='pic_left'>
-                            <img src="img/pic_right.jpg" alt="">
+                            <img src={{url("img/pic_right.jpg")}} alt="">
                         </div>
                         <div class='text'>
                             <p>家暴肉圓店爆紅 獨門辣椒醬秒完售！老闆娘超狂背景曝光</p>
@@ -157,24 +157,24 @@
                     </a>
                     <a href="#">
                         <div class='pic_left'>
-                            <img src="img/pic_right.jpg" alt="">
+                            <img src={{url("img/pic_right.jpg")}} alt="">
                         </div>
                         <div class='text'>
                             <p>家暴肉圓店爆紅 獨門辣椒醬秒完售！老闆娘超狂背景曝光</p>
                             <p style="color:#7F667F;font-size:15px">01/15 16:45</p>
                         </div>
-                    </a>                   
+                    </a>
             </div>
-        </div>      
+        </div>
     @endfor
 
     <div id='keyword'>
-        <h4><img src="img/con1.png" alt=""> <b>精彩關鍵</b></h4>
+        <h4><img src={{url("img/con1.png")}} alt=""> <b>精彩關鍵</b></h4>
 
         @for ($i = 0; $i < 6; $i++)
             <div class='inner'>
                 <a href="#">
-                    <img src="img/keyword1.jpg" alt="">
+                    <img src={{url("img/keyword1.jpg")}} alt="">
                     <p>政大選研民調：2020蔡英文、朱立倫加起來都還輸給柯文哲！！ 關鍵時刻20190115-4 黃暐瀚 謝龍介 吳子嘉 林國慶 朱學恒</p>
                     <p style="font-size:15px;">
                         觀看次數 12
@@ -184,17 +184,17 @@
                     </p>
                 </a>
             </div>
-        @endfor   
+        @endfor
     </div>
 
     <div id='bottom_new'>
-        
+
         @for ($i = 0; $i < 6; $i++)
-            
+
             <div class='inner'>
-                <h4><img src="img/con1.png" alt=""> <b>社會</b></h4>
+                <h4><img src={{url("img/con1.png")}} alt=""> <b>社會</b></h4>
                 <a href="#">
-                    <img src="img/bottom1.jpg" alt="">
+                    <img src={{url("img/bottom1.jpg")}} alt="">
                     <p>
                         家暴案私刑爭議 警籲理性勿觸法 <span>01/16 16:35</span>
                     </p>
@@ -205,7 +205,7 @@
                         家暴案私刑爭議 警籲理性勿觸法 <span>01/16 16:35</span>
                     </p>
                     <p style="float:right;border:none; margin-right:30px">看更多></p>
-                </a>  
+                </a>
             </div>
         @endfor
     </div>
@@ -242,7 +242,7 @@
             </div>
             <div class='inner_bottom'>
                 <div class='left'>
-                    <img src="img/bottom_tag.png" alt="">
+                    <img src={{url("img/bottom_tag.png")}} alt="">
                 </div>
                 <div class="right">
                     <p>東森電視事業股份有限公司 10041 台北市忠孝西路一段4號14樓 客服專線：02-2388-5918 隱私權政策</p>
