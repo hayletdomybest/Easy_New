@@ -9,6 +9,6 @@ class FirstNewController extends Controller
     public function index()
     {
         $news = title_new::all();
-        return view('news.section',['titleNews'=>$news]);
+        return view('news.index',['titleNews'=>$news]);
     }
 }
