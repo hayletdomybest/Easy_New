@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('title')
-    東森新聞網
+    奇怪新聞網
 @endsection
 
 @section('content')
@@ -9,9 +9,9 @@
             <div class="breadcrumb-color">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb skin-white">
-                        <li class="breadcrumb-item"><a href="#">EBC東森電視</a></li>
-                        <li class="breadcrumb-item"><a href="#">東森Apps</a></li>
-                        <li class="breadcrumb-item"><a href="#">東森美洲</a></li>
+                        <li class="breadcrumb-item"><a href="#">EBC奇怪電視</a></li>
+                        <li class="breadcrumb-item"><a href="#">奇怪Apps</a></li>
+                        <li class="breadcrumb-item"><a href="#">奇怪美洲</a></li>
                         <li class="breadcrumb-item"><a href="#">简体</a></li>
                     </ol>
                 </nav>
@@ -151,7 +151,7 @@
             <div class='breadcrumb_bottom'>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb skin-black">
-                        <li class="breadcrumb-item"><a href="#">東森電視首頁</a></li>
+                        <li class="breadcrumb-item"><a href="#">奇怪電視首頁</a></li>
                         <li class="breadcrumb-item"><a href="#">財經新聞台</a></li>
                         <li class="breadcrumb-item"><a href="#">綜合台</a></li>
                         <li class="breadcrumb-item"><a href="#">戲劇台</a></li>
@@ -162,7 +162,7 @@
                         <li class="breadcrumb-item"><a href="#">亞洲衛視</a></li>
                         <li class="breadcrumb-item"><a href="#">美洲衛視</a></li>
                         <li class="breadcrumb-item"><a href="#">YOYO幼兒園</a></li>
-                        <li class="breadcrumb-item"><a href="#">東森創作</a></li>
+                        <li class="breadcrumb-item"><a href="#">奇怪創作</a></li>
                     </ol>
                 </nav>
             </div>
@@ -171,9 +171,9 @@
                     <img src={{url("img/bottom_tag.png")}} alt="">
                 </div>
                 <div class="right">
-                    <p>東森電視事業股份有限公司 10041 台北市忠孝西路一段4號14樓 客服專線：02-2388-5918 隱私權政策</p>
-                    <p style="display:block;margin-left:75px">服務時間：週一至週五 09:00-20:00｜傳真：02-2388-5846｜客服信箱：service@ebc.net.tw</p>
-                    <p style="display:block;margin-left:360px">東森電視 版權所有 © 2019 EBC All Rights Reserved</p>
+                    <p>奇怪電視事業股份有限公司 10041 xx市xxx路一段4號1000樓 客服專線：02-2557-5918 隱私權政策</p>
+                    <p style="display:block;margin-left:75px">服務時間：週一至週五 09:00-20:00｜傳真：06-2555-5846｜客服信箱：service@ebc.net.tw</p>
+                    <p style="display:block;margin-left:360px">奇怪電視 版權所有 © 2019 EBC All Rights Reserved</p>
                 </div>
             </div>
         </div>
